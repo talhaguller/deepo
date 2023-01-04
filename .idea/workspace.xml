@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23f64016-e238-4879-99b1-42590229a863" name="Changes" comment="" />
+    <list default="true" id="23f64016-e238-4879-99b1-42590229a863" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -29,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2H5cyCMWRgA0ksxogBHHeVdYBBR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Talha/Desktop/deepoECommerce/deepo/deepoECommerce",
+    "last_opened_file_path": "C:/Users/90537/Documents/GitHub/Programlamaya-Giris/Programlamaya-Giris/deepo/deepoECommerce",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +69,8 @@
       <option name="presentableId" value="Default" />
       <updated>1667578636710</updated>
       <workItem from="1667578638017" duration="3104000" />
+      <workItem from="1670762676401" duration="169000" />
+      <workItem from="1670762865983" duration="110000" />
     </task>
     <servers />
   </component>

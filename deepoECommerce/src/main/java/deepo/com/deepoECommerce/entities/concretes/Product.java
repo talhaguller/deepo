@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.hibernate.mapping.Collection;
 
 import javax.persistence.*;
 
@@ -20,27 +19,32 @@ public class Product {
     @Column(name ="product_id")
     private int productId;
 
-    @Column(name ="product_name")
-    private String productName;
+    @Column(name = "product_title")
+    private String product_title;
 
-    @Column(name = "suppolier_id")
-    private int supplierId;
+    @Column(name = "product_main_image_url")
+    private String product_main_image_url;
 
-    @Column(name = "category_id")
-    private int categoryId;
+    @Column(name = "app_sale_price")
+    private String app_sale_price;
 
-    @Column(name = "unit_price")
-    private double unitPrice;
+    @Column(name = "app_sale_price_currency")
+    private String app_sale_price_currency;
 
-    @Column(name = "units_in_stock")
-    private int unitsInStock;
+    @Column(name = "product_detail_url")
+    private String product_detail_url;
 
-    @Column(name = "discontinued")
-    private int discontinued;
+    @Column(name = "evaluate_rate")
+    private String evaluate_rate;
 
+    @Column(name = "original_price")
+    private String original_price;
 
+    @Column(name = "is_best_seller")
+    private boolean is_best_seller;
 
-
+    @Column(name = "is_prime")
+    private boolean is_prime;
 
 
 }

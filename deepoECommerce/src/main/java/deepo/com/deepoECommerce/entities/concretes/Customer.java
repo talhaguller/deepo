@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Table(name="customer")
 @Getter
@@ -17,8 +18,14 @@ public class Customer {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "customerId")
+    @Column(name = "customer_id")
     private int customer_id;
+
+    @Column(name = "first_name")
+    private String firstName;
+
+    @Column(name = "last_name")
+    private String lastName;
 
     @Column(name = "username")
     private String username;
@@ -32,11 +39,10 @@ public class Customer {
     @Column(name = "re_password")
     private String rePassword;
 
-    @Column(name = "role")
-    private String role;
 
-    @Column(name = "enabled")
-    private boolean enabled;
-
-
+    public <E> Customer(String username, String password, List<E> of) {
+    }
 }
+
+
+

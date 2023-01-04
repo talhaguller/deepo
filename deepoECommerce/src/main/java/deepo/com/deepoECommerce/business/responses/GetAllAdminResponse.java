@@ -4,14 +4,12 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
-
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class GetAllCustomerResponse {
-    private int customer_id;
+public class GetAllAdminResponse {
 
+    private int admin_id;
 
     private String username;
 
@@ -19,7 +17,7 @@ public class GetAllCustomerResponse {
 
     private String password;
 
-    private String rePassword;
+    private boolean enabled;
 
 
 }
